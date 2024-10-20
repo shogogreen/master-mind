@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
+body {
+  background-image: url('okumono_kusumipuzzle1-768x432_2.png');
+  margin: 0;
+  font-family: 'Kosugi Maru', sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+span {
+  padding: 2px;
+}
+
+#description {
+  font-weight: bold;
+  text-align: left;
+  width: 60%;
+  margin: 0 auto 20px;
+}
+
+#clear {
+  display: none;
+}
+
+select {
+  font-family: 'Kosugi Maru', sans-serif;
+  text-align: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 15%;
+  border: 2px solid black;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+button {
+  border-radius: 30%;
+  background-color: lemonchiffon;
+  margin-top: 10px;
+  height: 30px;
+  width: 70px;
+  cursor: pointer;
+}
+
+#decisionButton {
+  display: none;
+}
+
+#retryButton {
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
